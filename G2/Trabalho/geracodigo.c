@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "geracodigo.h"
+#include "gera_codigo.h"
 
 void gera_codigo (FILE *f, unsigned char code[], funcp *entry) {
   
