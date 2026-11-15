@@ -2,7 +2,7 @@
 #include "gera_codigo.h"
 
 void gera_codigo (FILE *f, unsigned char code[], funcp *entry) {
-  
+  int pos = 0;
 
 
 }
