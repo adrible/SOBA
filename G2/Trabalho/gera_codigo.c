@@ -22,9 +22,7 @@ void gera_codigo (FILE *f, unsigned char code[], funcp *entry) {
         }
 
         case 'e': {
-            char c0;
-
-            if (fscanf(f, "nd%c", &c0) != 1) {
+            if (fgetc(f) != 'n' || fgetc(f) != 'd') {
                 printf("erro ao ler o comando de end\n");
                 exit(1);
             }
